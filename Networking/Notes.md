@@ -57,21 +57,21 @@ Why do we need a communication model ?
 7 Layers 
 <img width="418" height="286" alt="image" src="https://github.com/user-attachments/assets/3f378218-9da0-4f10-af74-3d2656d60622" />
 
-Level 1 Physical - Transfers raw bit streams (small pieces of data) over a physical medium (wifi, cables)
-Level 2 Data Link - Provides node to node data transfer, corrects errors in the physical layer. Ensures data is correctly transferred between nodes (Mac Addresses, switches and bridges). 
-Level 3 Network - Determines how packets are sent to the recipient. Decides the best path for data to pass through different networks (IP Addresses, Routers).
-Level 4 Transport - Delivers reliable data transfers to the upper layers. Ensures data parcels arrive safely and in sequence. (TCP, UDP).
-Level 5 Session - Establishes, maintains and terminates connections (Session Management Protocols). 
-Level 6 Presentation - Translates data between application layer and network (Handles - Encryption, Data Formatting) 
-Level 7 Application - Provides network services directly to the application. The layer you actually see and use, like your web browser. (HTTP, FTP, SMTP)
+1. Physical - Transfers raw bit streams (small pieces of data) over a physical medium (wifi, cables)
+2. Data Link - Provides node to node data transfer, corrects errors in the physical layer. Ensures data is correctly transferred between nodes (Mac Addresses, switches and bridges).
+3. Network - Determines how packets are sent to the recipient. Decides the best path for data to pass through different networks (IP Addresses, Routers).
+4. Transport - Delivers reliable data transfers to the upper layers. Ensures data parcels arrive safely and in sequence. (TCP, UDP).
+5. Session - Establishes, maintains and terminates connections (Session Management Protocols). 
+6. Presentation - Translates data between application layer and network (Handles - Encryption, Data Formatting) 
+7. Application - Provides network services directly to the application. The layer you actually see and use, like your web browser. (HTTP, FTP, SMTP)
 
 TCP/IP Layer
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c0881853-60cc-4ce8-bb43-afa06526833c" />
 
-Application Layer - Where network services are directly provided to the application (HTTP, etc) 
-Transport Layer - Where End to End communication happens (TCP, UDP)
-Internet Layer - Logical addressing and routing data across different networks (IP)
-Network access Layer - (Same as L1 and L2 of OSI). Physical and datalink aspects (Physical, Wireless, and Lan). How is it the same as L1 and L2  --> Physically sends data (electrical signals, light, radio waves). Uses MAC addresses to deliver data to the right device on a local network.
+1. Application Layer - Where network services are directly provided to the application (HTTP, etc) 
+2. Transport Layer - Where End to End communication happens (TCP, UDP)
+3. Internet Layer - Logical addressing and routing data across different networks (IP)
+4. Network access Layer - (Same as L1 and L2 of OSI). Physical and datalink aspects (Physical, Wireless, and Lan). How is it the same as L1 and L2  --> Physically sends data (electrical signals, light, radio waves). Uses MAC addresses to deliver data to the right device on a local network.
 
 OSI Layers; POV of Sender 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/88a02a2b-397a-4425-a660-0e0e3d51698a" />
