@@ -73,5 +73,5 @@ sudo yum install nginx -y sudo systemctl start nginx
 
 ---
 
-#🎉 You now have an NGINX web server running on EC2, mapped to your custom domain!
+# 🎉 You now have an NGINX web server running on EC2, mapped to your custom domain!
 
