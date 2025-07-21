@@ -2,11 +2,11 @@
 
 I will be highlighting the steps to launch an NGINX web server on an Amazon EC2 instance :cloud:, and map it to a domain purchased through Cloudflare.
 
-## 1) Purchase a domain on cloudfare, e.g "nginxhassan.com"
+## 🔹 Step 1: Purchase a Domain on Cloudflare
 
 This should cost around $5 - $10
 
-## 2) Launch an Amazon EC2 instance 
+## 🔹 Step 2: Launch an EC2 Instance
 - AMI: Amazon Linux 2023
 - Instance Type: t3.micro
 - Security Group Inbound Rules:
@@ -14,9 +14,17 @@ This should cost around $5 - $10
   - Port 80 (HTTP) – 0.0.0.0/0
   - Port 443 (HTTPS) – 0.0.0.0/0
 
-## 3) Locate the Public IPV4 address on the instance summary, and note it down. 
+## 🔹 Step 3: Note the Public IPv4 Address
 
-## 4) Connect to the EC2 instance via SSH
+After launching, locate the **Public IPv4 address** in the **EC2 instance summary**.  
+📌 You'll use this later to point your domain to the server.
+
+---
+
+## 🔹 Step 4: Connect to the EC2 Instance via SSH
+
+Run this command in your terminal:
+
 ssh -i /path/to/key.pem ec2-user@<EC2_PUBLIC_IP>
 
 ## 5) Install NGINX
@@ -40,3 +48,6 @@ sudo yum install nginx -y sudo systemctl start nginx
 
 ## 9) Finally, search your domain on your browser and you should find your website. :clap:
 <img width="959" height="373" alt="image" src="https://github.com/user-attachments/assets/e1d9be67-76a2-4e2f-aa60-5b366cdd4d7c" />
+
+#🎉 You now have an NGINX web server running on EC2, mapped to your custom domain!
+
