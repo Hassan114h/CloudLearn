@@ -10,6 +10,7 @@ Create a Bash script that:
 
 Executes the chosen task.
 
+```bash
 🖥️ Script
 
 #!/bin/bash
@@ -49,3 +50,4 @@ do
              ;;
     esac
 done
+```
