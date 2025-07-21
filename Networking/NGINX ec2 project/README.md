@@ -31,8 +31,9 @@ After launching, locate the **Public IPv4 address** in the **EC2 instance summar
 
 Run this command in your terminal💻 🔐:
 
+```bash
 ssh -i /path/to/key.pem ec2-user@<EC2_PUBLIC_IP>
-
+```
 ---
 
 ## 🔹 Step 5: Install NGINX
@@ -56,7 +57,10 @@ sudo systemctl enable nginx
 ## 🔹 Step 7: Go back onto the terminal, and confirm propagation.
 
 Run this command 💻: 
-nslookup (Your domain).
+
+```bash
+nslookup <Your domain>
+```
 
 After a few minutes, the result should show the public IPV4 address, with your domain:
 
@@ -65,8 +69,10 @@ After a few minutes, the result should show the public IPV4 address, with your d
 ## 🔹 Step 8: Customise your page with the command
 
 Run this command 💻:
-sudo yum install nginx -y sudo systemctl start nginx
 
+```bash
+sudo yum install nginx -y sudo systemctl start nginx
+```
 ---
 
 ## 🔹 Step 9: Finally, search your domain on your browser and you should find your website. :clap:
