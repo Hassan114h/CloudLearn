@@ -1,5 +1,5 @@
 
-# 📘 My Networking Notes
+# 📘 My Notes on Networking
 
 These are my summarised notes from learning about networking fundamentals, covering key topics like DNS, routing, subnetting, OSI model, cloud networking, and troubleshooting. The notes are structured for clarity and quick revision, and I’ve tried to keep the explanations simple and practical without changing the core concepts.
 
