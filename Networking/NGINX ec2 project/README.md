@@ -39,11 +39,12 @@ ssh -i /path/to/key.pem ec2-user@<EC2_PUBLIC_IP>
 
 Run these commands in your terminal💻:
 
+```bash
 sudo yum update -y
 sudo yum install -y nginx
 sudo systemctl start nginx
 sudo systemctl enable nginx
-
+```
 ---
 
 ## 🔹 Step 6: Login to your Cloudfare account, and create an A record for your domain. Point this to the Public IPV4 address you noted down earlier. 
