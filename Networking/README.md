@@ -1,16 +1,18 @@
 ## :zap: Launching an NGINX Web Server on an Amazon EC2 :cloud:
 
-I will be highlighting the steps to launch an NGINX web server on an Amazon EC2 instance :cloud:, and map it to a domain purchased through Cloudflare
+I will be highlighting the steps to launch an NGINX web server on an Amazon EC2 instance :cloud:, and map it to a domain purchased through Cloudflare.
 
 ## 1) Purchase a domain on cloudfare, e.g "nginxhassan.com"
 
+This should cost around $5 - $10
+
 ## 2) Launch an Amazon EC2 instance 
--AMI: Amazon Linux 2023
--Instance Type: t3.micro
--Security Group Inbound Rules:
--Port 22 (SSH) - Your IP
--Port 80 (HTTP) - 0.0.0.0/0
--Port 443 (HTTPS) - 0.0.0.0/0
+- AMI: Amazon Linux 2023
+- Instance Type: t3.micro
+- Security Group Inbound Rules:
+  - Port 22 (SSH) – Your IP
+  - Port 80 (HTTP) – 0.0.0.0/0
+  - Port 443 (HTTPS) – 0.0.0.0/0
 
 ## 3) Locate the Public IPV4 address on the instance summary, and note it down. 
 
