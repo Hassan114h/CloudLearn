@@ -4,7 +4,7 @@
 These are my summarised notes from learning about networking fundamentals, covering key topics like DNS, routing, subnetting, OSI model, cloud networking, and troubleshooting. The notes are structured for clarity and quick revision, and I’ve tried to keep the explanations simple and practical without changing the core concepts.
 
 
-# 📡 Intro to Networking
+# Intro to Networking
 
 ### What is a Computer Network?
 Devices connected to each other to share resources. Enables communication between devices.
@@ -67,7 +67,7 @@ Framework to understand how data travels.
 
 ---
 
-# 🌐 DNS (Domain Name System)
+# DNS (Domain Name System)
 
 ### What is DNS?
 Translates website names into IP addresses.
@@ -171,7 +171,7 @@ Prefix: 24
 
 ---
 
-# 🌍 NAT (Network Address Translation)
+# NAT (Network Address Translation)
 
 ### What is NAT?
 
@@ -190,7 +190,7 @@ Translates private IP to public IP to access the internet.
 
 ---
 
-# 🧪 Network Troubleshooting
+# Network Troubleshooting
 
 ### Useful Commands
 
@@ -213,7 +213,7 @@ Translates private IP to public IP to access the internet.
 
 ---
 
-# ☁️ Cloud Networking
+# Cloud Networking
 
 ### VPC – Virtual Private Cloud
 
