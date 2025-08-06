@@ -11,7 +11,7 @@ Create a Bash script that:
 Executes the chosen task.
 
 ```bash
-🖥️ Script
+Script:
 
 #!/bin/bash
 
